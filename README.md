@@ -17,7 +17,7 @@ Atlas can manage our resources.
 
 First, export you Atlas token as an environment variable. Terraform reads this
 environment variable to authenticate you with Atlas:
-
+Aditya
     $ export ATLAS_TOKEN="$(cat terraform.tfvars | grep atlas_token | cut -d'=' -f2 | tr -d '"' | tr -d ' ')"
 
 Next, grab the name of your environment:
